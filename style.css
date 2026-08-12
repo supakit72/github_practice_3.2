@@ -1,23 +1,4 @@
-* { 
-  box-sizing: border-box; 
-} 
-body { 
-  margin: 0; 
-  font-family: Arial, sans-serif; 
-} 
-nav { 
-  display: flex; 
-  align-items: center; 
-  gap: 24px; 
-  padding: 20px 40px; 
-} 
-nav a { 
-  text-decoration: none; 
-  color: #222; 
-} 
-main { 
-  min-height: 70vh; 
-} 
-footer { 
-  padding: 40px; 
+body {
+  font-family: 'Prompt', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
