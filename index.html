@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bella Salon - หน้าแรก</title>
-    
+
     <!-- Google Fonts: Prompt -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -37,6 +38,7 @@
         }
     </script>
 </head>
+
 <body>
     <!-- Navigation --> 
     <nav class="w-full bg-bg-main py-4 sticky top-0 z-50 shadow-sm">
@@ -74,9 +76,100 @@
         </div>
     </header>
       <!-- แบ่ง Section ให้สมาชิกในทีม แล้วพัฒนาตาม Design Reference --> 
-    </main> 
-    <!-- Footer --> 
-    <footer> 
-    </footer> 
+    <section class="py-20 px-6 max-w-6xl mx-auto text-center">
+            <p class="text-brand text-sm font-medium mb-1">Our Services</p>
+            <h2 class="text-3xl font-semibold mb-12">บริการของเรา</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-100">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="ทำผม" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ทำผม</h3>
+                        <p class="text-gray-500 text-sm mb-4">ตัด ซอย ทำสี ดัด ยืด โดยช่างผมมืออาชีพ</p>
+                        <p class="text-brand font-medium">เริ่มต้น ฿500</p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-100">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="ทำเล็บ" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ทำเล็บ</h3>
+                        <p class="text-gray-500 text-sm mb-4">เพ้นท์เล็บ ต่อเล็บ เจลเล็บ ดีไซน์สุดพิเศษ</p>
+                        <p class="text-brand font-medium">เริ่มต้น ฿300</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-gray-100">
+                    <img src="https://plus.unsplash.com/premium_photo-1675018083336-7404c3fc874c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="สปาผิวหน้า" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">สปาผิวหน้า</h3>
+                        <p class="text-gray-500 text-sm mb-4">ทรีทเมนต์บำรุงผิวหน้า ดูแลผิวอย่างล้ำลึก</p>
+                        <p class="text-brand font-medium">เริ่มต้น ฿800</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="bg-bg-alt py-20 px-6 text-center">
+            <div class="max-w-5xl mx-auto">
+                <p class="text-brand text-sm font-medium mb-1">Why Choose Us</p>
+                <h2 class="text-3xl font-semibold mb-4">ทำไมต้องเลือกเรา</h2>
+                <p class="text-gray-600 text-sm md:text-base max-w-xl mx-auto mb-16">
+                    Bella Salon คือร้านเสริมสวยที่รวมความสวยงาม ความเป็นมืออาชีพ<br>และบรรยากาศสุดหรู ไว้ในที่เดียว
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <!-- Feature 1 -->
+                    <div>
+                        <div
+                            class="w-16 h-16 bg-[#F2DFD8] text-brand rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">ใส่ใจทุกรายละเอียด</h3>
+                        <p class="text-gray-500 text-sm">เราดูแลคุณเหมือนคนพิเศษ</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div>
+                        <div
+                            class="w-16 h-16 bg-[#F2DFD8] text-brand rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">ใส่ใจทุกรายละเอียด</h3>
+                        <p class="text-gray-500 text-sm">เราดูแลคุณเหมือนคนพิเศษ</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div>
+                        <div
+                            class="w-16 h-16 bg-[#F2DFD8] text-brand rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">ใส่ใจทุกรายละเอียด</h3>
+                        <p class="text-gray-500 text-sm">เราดูแลคุณเหมือนคนพิเศษ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="bg-bg-alt border-t border-gray-200 py-8 text-center mt-auto">
+        <div class="flex items-center justify-center gap-2 text-xl font-semibold mb-2">
+            <i class="fa-solid fa-scissors text-brand"></i>
+            <span>Bella Salon</span>
+        </div>
+        <p class="text-gray-500 text-sm">© 2026 Bella Salon. All rights reserved.</p>
+    </footer>
 </body> 
 </html>
